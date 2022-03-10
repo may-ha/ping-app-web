@@ -1,0 +1,62 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+.App{
+    
+    width: 500px;
+    max-height: 1000px;
+    border: 1px solid #efefef;
+    box-shadow: 0px 6px 3px 4px rgb(0 0 0 / 4%);
+    border-radius: 15px;
+    background-color: white;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form div{
+    margin: 5% 0 ;
+}
+.host,textarea{
+    border: 1px solid #efefef;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    padding: 5px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+button{
+    border: 1px solid #efefef;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(43,130,212,1);
+    color: white;
+}
+.tableTopFive{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+   margin-left: 19%;
+   width:300px;
+  }
+.tableTopFive th,.tableTopFive td{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.tableTopFive tr:nth-child(even){background-color: #f2f2f2;}
+.tableTopFive th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(43,130,212,1);
+    color: white;
+} 
+
